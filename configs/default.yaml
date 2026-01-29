@@ -1,0 +1,22 @@
+# DQN Trading Bot Configuration
+data:
+  filepath: "Data/Stocks/goog.us.txt"
+  split_date: "2016-01-01"
+
+model:
+  hidden_size: 100
+  history_t: 90
+
+training:
+  epochs: 50
+  memory_size: 200
+  batch_size: 50
+  gamma: 0.97
+  learning_rate: 0.001
+  epsilon_start: 1.0
+  epsilon_min: 0.1
+  epsilon_decrease: 0.001
+  start_reduce_epsilon: 200
+  train_freq: 10
+  update_q_freq: 20
+  show_log_freq: 5
