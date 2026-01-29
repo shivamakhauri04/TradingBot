@@ -1,0 +1,72 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# Model weights
+*.pth
+*.ckpt
+*.h5
+*.pt
+*.pkl
+*.joblib
+
+# Data files
+*.csv
+*.parquet
+*.feather
+*.hdf5
+
+# Large media
+*.mp4
+*.avi
+*.mov
+*.zip
+*.tar.gz
+*.rar
+
+# Experiment outputs
+wandb/
+mlruns/
+runs/
+tensorboard/
+lightning_logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Experiment, checkpoint, and data directories (keep .gitkeep)
+experiments/*
+!experiments/.gitkeep
+checkpoints/*
+!checkpoints/.gitkeep
+data/*
+!data/.gitkeep
